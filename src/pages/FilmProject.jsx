@@ -24,7 +24,7 @@ function ChildhoodVideoLightbox({onClose}){
 }
 export function FilmProject({navigate}){
  const [memoryOpen,setMemoryOpen]=useState(false),[selected,setSelected]=useState(null),[playing,setPlaying]=useState(false),root=useRef();
- useEffect(()=>{document.title='Renting Time | 出租时间的女孩 — Christina Huang';const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}}),{threshold:.06});root.current.querySelectorAll('[data-film-reveal]').forEach(el=>observer.observe(el));return()=>{observer.disconnect();document.title='Christina Huang — Creative Portfolio'}},[]);
+ useEffect(()=>{document.title='Christina Huang | Creative Portfolio';const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}}),{threshold:.06});root.current.querySelectorAll('[data-film-reveal]').forEach(el=>observer.observe(el));return()=>{observer.disconnect();document.title='Christina Huang | Creative Portfolio'}},[]);
  useEffect(()=>{
   const description=document.querySelector('meta[name="description"]'),oldDescription=description?.getAttribute('content');
   const title='Renting Time | 出租时间的女孩 — Christina Huang';
