@@ -1,0 +1,30 @@
+{
+  "name": "christina-creative-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:browser": "node tests/reference-check.mjs",
+    "test:intro": "node tests/reference-check.mjs",
+    "test:reference": "node tests/reference-check.mjs",
+    "test:scroll": "node tests/automatic-scroll-check.mjs",
+    "test:curl": "node tests/curl-check.mjs",
+    "test:theme": "node tests/theme-check.mjs",
+    "test:sticker": "node tests/sticker-check.mjs",
+    "test:gaze": "node tests/gaze-consistency.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.0",
+    "@react-three/fiber": "^9.3.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "vite": "^7.1.7"
+  }
+}

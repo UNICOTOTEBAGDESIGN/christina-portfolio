@@ -1,0 +1,59 @@
+{
+  "positions": [
+    {
+      "class": "section hero_wrap is-home",
+      "top": 0,
+      "height": 1500
+    },
+    {
+      "class": "section",
+      "top": 1500,
+      "height": 763
+    },
+    {
+      "class": "section media_wrap",
+      "top": 2263.078125,
+      "height": 1262
+    },
+    {
+      "class": "section is-transition",
+      "top": 3525.484375,
+      "height": 500
+    },
+    {
+      "class": "section about_wrap is-dark",
+      "top": 4025.484375,
+      "height": 1769
+    },
+    {
+      "class": "section news_wrap is-dark",
+      "top": 5794.65625,
+      "height": 1608
+    },
+    {
+      "class": "section is-transition",
+      "top": 7402.96875,
+      "height": 500
+    },
+    {
+      "class": "section quote_wrap",
+      "top": 7902.96875,
+      "height": 918
+    },
+    {
+      "class": "section books_wrap",
+      "top": 8820.96875,
+      "height": 1309
+    }
+  ],
+  "transition": [
+    {
+      "html": "",
+      "style": ""
+    },
+    {
+      "html": "",
+      "style": ""
+    }
+  ]
+}

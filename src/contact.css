@@ -1,0 +1,38 @@
+/* Contact is a short personal letter; the CV lives on About. */
+.portrait-content .contact-page{grid-template-columns:1fr 1.08fr;gap:clamp(32px,5vw,72px);align-items:center;padding-top:clamp(60px,8vw,110px);padding-bottom:clamp(75px,10vw,140px)}
+.contact-page .page-heading{margin-bottom:0}
+.contact-page .page-heading h1{letter-spacing:-1.8px}
+.portrait-content .contact-page .contact-letter{margin:0;padding:48px 38px 38px;background:#fff9ee;border:1px solid #44344e1a;border-radius:3px;box-shadow:none;color:#44344e}
+.contact-page .letter-fold{width:30px;height:30px;background:linear-gradient(45deg,#e9dfd1 49%,#f4eddf 51%)}
+.contact-page .contact-letter>.eyebrow{font-size:9px;letter-spacing:2px;color:#6c5a76}
+.contact-page .contact-letter h2{font-size:clamp(25px,2.5vw,32px);font-weight:450;line-height:1.3;letter-spacing:-.8px;max-width:320px;margin:26px 0 40px}
+.contact-page .contact-row{display:flex;align-items:flex-start;flex-direction:column;gap:13px;padding:22px 0 0;border-top:1px solid #44344e22}
+.portrait-content .contact-page .contact-row>span:first-child{font-size:9px;letter-spacing:1.6px;opacity:1;color:#75657d}
+.portrait-content .contact-page .contact-row>a{display:flex;align-items:baseline;justify-content:space-between;gap:14px;width:100%;font-size:clamp(12px,1.2vw,15px);line-height:1.6;color:#44344e;text-decoration:none;overflow-wrap:anywhere}
+.contact-page .contact-row>a>span{flex-shrink:0;font-size:20px;transition:transform .2s}
+.contact-page .contact-row>a:hover{text-decoration:underline;text-underline-offset:5px}
+.contact-page .contact-row>a:hover>span{transform:translate(2px,-2px)}
+.contact-page .contact-row>a:focus-visible{outline:2px solid #806791;outline-offset:6px;border-radius:2px}
+.contact-page .contact-secondary{margin-top:24px}
+@media(max-width:700px){.portrait-content .contact-page{display:block;padding-top:45px;padding-bottom:65px}.contact-page .page-heading{margin-bottom:38px}.portrait-content .contact-page .contact-letter{padding:38px 25px 30px}.contact-page .contact-letter h2{font-size:28px;margin:24px 0 32px}.portrait-content .contact-page .contact-row>a{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.contact-page .contact-row>a>span{transition:none}}
+
+/* Balance the letter within the space between navigation and footer. */
+.portrait-content .contact-page{min-height:calc(100svh - 222px);box-sizing:border-box;padding-top:48px;padding-bottom:48px}
+.contact-page .page-heading>p{max-width:330px;line-height:1.85}
+.contact-page .contact-letter h2{max-width:350px;margin-bottom:30px}
+.contact-page .contact-hello{display:inline-flex;align-items:center;gap:40px;margin-top:28px;padding:14px 23px;border:1px solid #4e3b60;border-radius:999px;background:#4e3b60;color:#fff9ee;font-size:14px;line-height:1.4;text-decoration:none;transition:background .2s,transform .2s}
+.contact-page .contact-hello>span{font-size:20px;line-height:1}
+.contact-page .contact-hello:hover{background:#654d79;transform:translateY(-2px)}
+.contact-page .contact-hello:focus-visible{outline:2px solid #806791;outline-offset:5px}
+@media(max-width:700px){.portrait-content .contact-page{min-height:0;padding-top:38px;padding-bottom:48px}.contact-page .page-heading>p{max-width:300px}.contact-page .contact-hello{margin-top:26px}}
+@media(prefers-reduced-motion:reduce){.contact-page .contact-hello{transition:none}.contact-page .contact-hello:hover{transform:none}}
+/* Theme-aware purple capsule; keep label and arrow contrast together. */
+.contact-page{--hello-bg:#d8c3ed;--hello-ink:#352440;--hello-hover:#cbb0e5}
+[data-theme=dark] .contact-page{--hello-bg:#4e3b60;--hello-ink:#fff9ee;--hello-hover:#654d79}
+.contact-page .contact-hello{background:var(--hello-bg);color:var(--hello-ink);border:1px solid var(--hello-bg);border-radius:999px;padding:18px 32px;gap:20px;font-size:18px;font-weight:550;letter-spacing:-.4px;transition:background .2s,border-color .2s,color .2s}
+.contact-page .contact-hello>span{font-size:26px;color:inherit}
+.contact-page .contact-hello:hover,.contact-page .contact-hello:focus-visible{background:var(--hello-hover);border-color:var(--hello-hover);color:var(--hello-ink);transform:none}
+.contact-page .contact-hello:focus-visible{outline-color:var(--hello-bg)}
+@media(max-width:700px){.contact-page .contact-hello{padding:16px 28px;font-size:17px}}
+@media(prefers-reduced-motion:reduce){.contact-page .contact-hello{transition:none}}

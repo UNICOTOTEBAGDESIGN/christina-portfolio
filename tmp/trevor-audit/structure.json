@@ -1,0 +1,102 @@
+{
+  "scripts": [
+    "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/css/ob-trevornoah.shared.555863077.min.css",
+    "https://trevor-nine.vercel.app/app.js",
+    "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/js/ob-trevornoah.schunk.7321a5097fb66f41.js",
+    "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/js/ob-trevornoah.751e0867.148dc658e77a3916.js",
+    "https://trevor-nine.vercel.app/main.css",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69b574b7e8a1b256fc6f5504",
+    "https://trevor-nine.vercel.app/chunk-022tjzda.js",
+    "blob:https://www.trevornoah.com/3cfaa87c-5bb4-4b14-8da1-20fbf539346b",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-P7H6WQQZ",
+    "https://trevornoah.itsoffbrand.io/basis/basis_transcoder.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-W7J3SH72V0&cx=c&gtm=4e6ae1"
+  ],
+  "structure": {
+    "scrollY": 5200,
+    "sections": [
+      {
+        "class": "section hero_wrap is-home",
+        "text": "Trevor Noah\nLatest\nNetflix Comedy Special\nTrevor Noah: Joy in the Trenches\nNetflix Comedy Special\nTrevor Noah: Joy in the Trenches\nLink",
+        "height": 1500
+      },
+      {
+        "class": "section",
+        "text": "Finding the extraordinary\nin the ordinary -\noften interesting, always\ninterested\nFinding the extraordinary in the ordinary - often interesting, always intereste",
+        "height": 763
+      },
+      {
+        "class": "section media_wrap",
+        "text": "Media\nMedia\nOn The Screen\nOn The Screen\nView All Media",
+        "height": 1262
+      },
+      {
+        "class": "section is-transition",
+        "text": "",
+        "height": 500
+      },
+      {
+        "class": "section about_wrap is-dark",
+        "text": "About\nAbout\nThis Guy\nThis Guy\n\nA curious human\nintrigued by the world\naround him\nA curious humanintrigued by the world around him\n\nTrevor Noah\n\nAs a comedian, p",
+        "height": 1769
+      },
+      {
+        "class": "section news_wrap is-dark",
+        "text": "Latest\nLatest\nWhere’s Trevor?\nWhere’s Trevor?\n\n11 Jun 26\n\nWorld Cup YT Show\n\nWorld Cup Watch Party, serving up unfiltered soccer debate, massive live reactions,",
+        "height": 1608
+      },
+      {
+        "class": "section is-transition",
+        "text": "",
+        "height": 500
+      },
+      {
+        "class": "section quote_wrap",
+        "text": "Being chosen is the\ngreatest gift you can give\nto another human being\nBeing chosen is the greatest gift you can give to another human being\nTrevor Noah\nBorn A C",
+        "height": 918
+      },
+      {
+        "class": "section books_wrap",
+        "text": "Books\nbooks\nOn The Page\nOn The Page\nExplore More",
+        "height": 1309
+      }
+    ],
+    "images": [
+      {
+        "class": "menu_face_01",
+        "alt": "",
+        "src": ""
+      },
+      {
+        "class": "menu_face_02",
+        "alt": "",
+        "src": ""
+      },
+      {
+        "class": "about_head is-inview",
+        "alt": "",
+        "src": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c5793266d266c5ab7d8c41_image%20283-p-500.webp"
+      },
+      {
+        "class": "about_hand is-inview",
+        "alt": "",
+        "src": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c57a953f30d8ad566b02e0_Group%201171276054-p-500.webp"
+      },
+      {
+        "class": "quote_head",
+        "alt": "",
+        "src": "https://cdn.prod.website-files.com/69b5b66f2b64db75535e2eca/6a0197c7ccc9e1b0ce96f54e_image%20526.webp"
+      },
+      {
+        "class": "menu_face_01",
+        "alt": "",
+        "src": ""
+      },
+      {
+        "class": "menu_face_02",
+        "alt": "",
+        "src": ""
+      }
+    ]
+  }
+}

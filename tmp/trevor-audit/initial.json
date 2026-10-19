@@ -1,0 +1,382 @@
+{
+  "title": "Trevor Noah - Comedian, Author & Host | Official Site",
+  "bodyClass": "",
+  "scrollHeight": 10980,
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "burger_wrap is-default",
+      "aria": "Open menu"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "burger_wrap is-default",
+      "aria": "Open menu"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "burger_wrap",
+      "aria": "Close menu"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "gl_nav is-left",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "class": "gl_nav is-right",
+      "aria": null
+    },
+    {
+      "tag": "A",
+      "text": "Read More",
+      "class": "button w-variant-86ffadb7-9931-b304-d51a-b0781b742267 w-inline-block",
+      "aria": "About Trevor"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Accept All",
+      "class": "button",
+      "aria": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "No Thanks",
+      "class": "button cookie_btn",
+      "aria": null
+    }
+  ],
+  "head": [
+    {
+      "tag": "HEADER",
+      "class": "header_wrap is-home",
+      "rect": {
+        "x": 47.34375,
+        "y": 277.15625,
+        "w": 1345.3125,
+        "h": 58.09375
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "HEADER",
+      "class": "header_wrap is-default",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "menu_head_wrap",
+      "rect": {
+        "x": -232.40625,
+        "y": 237.078125,
+        "w": 792,
+        "h": 1062.921875
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "svg",
+      "class": {},
+      "rect": {
+        "x": 209.66259765625,
+        "y": 461.34375,
+        "w": 256.84942626953125,
+        "h": 189.667236328125
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 117.984)"
+    },
+    {
+      "tag": "DIV",
+      "class": "menu_head",
+      "rect": {
+        "x": -465.6239318847656,
+        "y": 106.05548095703125,
+        "w": 1258.435302734375,
+        "h": 1324.96728515625
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "matrix(0.819152, 0.573576, -0.573576, 0.819152, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "class": "header_wrap is-menu",
+      "rect": {
+        "x": 47.34375,
+        "y": 31.734375,
+        "w": 1345.3125,
+        "h": 58.09375
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "SECTION",
+      "class": "section hero_wrap is-home",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1500
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_social_link_wrap",
+      "rect": {
+        "x": 1104.84375,
+        "y": 900.4375,
+        "w": 287.8125,
+        "h": 49.5625
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "svg",
+      "class": {},
+      "rect": {
+        "x": 47.359375,
+        "y": 47.34375,
+        "w": 1345.28125,
+        "h": 203.171875
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "matrix(1, 0, 0, 1, -672.641, 0)"
+    },
+    {
+      "tag": "DIV",
+      "class": "container hero_wrap",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1000
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_carousel_wrap",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_carousel_viewport",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_carousel_track",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_carousel_slide is-selected",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_carousel_slide",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "hero_carousel_slide",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "about_intro",
+      "rect": {
+        "x": 245.765625,
+        "y": 4381.53125,
+        "w": 948.46875,
+        "h": 974.84375
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "IMG",
+      "class": "about_head",
+      "rect": {
+        "x": 545.109375,
+        "y": 4381.53125,
+        "w": 349.78125,
+        "h": 332.0625
+      },
+      "src": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c5793266d266c5ab7d8c41_image%20283.webp",
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "IMG",
+      "class": "about_hand",
+      "rect": {
+        "x": 728.578125,
+        "y": 5032.46875,
+        "w": 215.25,
+        "h": 323.90625
+      },
+      "src": "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c57a953f30d8ad566b02e0_Group%201171276054.webp",
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "IMG",
+      "class": "quote_head",
+      "rect": {
+        "x": 237.734375,
+        "y": 8148.59375,
+        "w": 0,
+        "h": 0
+      },
+      "src": "https://cdn.prod.website-files.com/69b5b66f2b64db75535e2eca/6a0197c7ccc9e1b0ce96f54e_image%20526.webp",
+      "anim": "none",
+      "transform": "matrix(0, 0, 0, 0, -33.6328, -84.7188)"
+    },
+    {
+      "tag": "DIV",
+      "class": "footer_head_wrap",
+      "rect": {
+        "x": -213.03125,
+        "y": 10199.828125,
+        "w": 792,
+        "h": 779.953125
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "svg",
+      "class": {},
+      "rect": {
+        "x": 229.03759765625,
+        "y": 10395.796875,
+        "w": 256.84942626953125,
+        "h": 189.6669921875
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 117.984)"
+    },
+    {
+      "tag": "DIV",
+      "class": "footer_head",
+      "rect": {
+        "x": -460.9302978515625,
+        "y": 10092.396484375,
+        "w": 1287.798095703125,
+        "h": 1232.41015625
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "matrix(0.573576, 0.819152, -0.819152, 0.573576, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "class": "tour_head_wrap",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "class": "tour_head",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "src": null,
+      "anim": "none",
+      "transform": "none"
+    }
+  ]
+}

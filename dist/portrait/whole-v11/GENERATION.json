@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "master": "/Users/christinahuang/Desktop/body/little-universe-demo/public/portrait/final-v3/reference.png",
+  "full": {
+    "center": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-69fb5e9b-dfa1-47d3-94f8-71942463b5d7.png",
+    "n": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-2912f47d-b74f-4302-a196-33adbd92ac06.png",
+    "ne": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-cdd8d611-17ea-4cd1-93ae-b13aa759b8f7.png",
+    "e": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-4c4023b4-abc2-4786-98f7-898a7dd94a6e.png",
+    "se": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-49694abb-5bcc-4500-b671-3d29c03bf1e3.png",
+    "s": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-30b7fabe-506b-4cd3-a499-6f20448fbbef.png",
+    "sw": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-d4298372-e0a1-45d4-8658-b38b37db80c2.png",
+    "w": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-3097749a-91fc-4cd9-aef0-977904f37ac6.png",
+    "nw": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-26d9a424-919d-4a40-a6ef-6af47eb4de9b.png",
+    "surprise": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-9f8488ab-e488-4c73-a4a1-12fde63fa902.png"
+  },
+  "torn": {
+    "center": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-4e4b0123-2fb1-4191-988c-3ac304ab70cd.png",
+    "n": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-5359ce2d-37c5-4594-96f1-8e5ce5a70a68.png",
+    "e": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-6606c6f2-b2f0-4f0a-a103-32e7e770b463.png",
+    "ne": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-7a04fb69-7a14-4c5f-b85d-bd9871da51d5.png",
+    "se": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-3c856bc2-10ca-43b0-a1ca-783f5f6ae65f.png",
+    "s": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-d3e270b6-050f-4e22-becd-52c44a4f224f.png",
+    "sw": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-cc7970c6-2c2d-45b9-a637-7c725be15ec9.png",
+    "w": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-ee4d9eb7-6103-421a-918e-470101251299.png",
+    "nw": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-103c0c77-56b2-49c4-a330-741dc2232e20.png",
+    "surprise": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-3e432762-fbd2-4db5-91c8-2bcaa3ccdd51.png"
+  },
+  "promptSet": "Full images: edit only iris gaze in the outlined short-neck master; preserve the complete photographic frame, identity, color, scale, position, white paper border and alpha. Directions n/ne/e/se/s/sw/w/nw. Torn images: preserve each matching full photograph and reproduce the torn master paper edge, no independent line or eye compositing.",
+  "promptFiles": [
+    "prompts.json",
+    "torn-prompts.json"
+  ],
+  "wholeImageOnly": true,
+  "eyeCompositing": false
+}

@@ -1,0 +1,5 @@
+import React from 'react';
+import {profile} from '../data/portfolio';
+import '../contact.css';
+const linkedIn=profile.socialLinks.find(link=>/^https:\/\/(www\.)?linkedin\.com\/in\/[^/?#]+/i.test(link.url));
+export function ContactPage(){return <div className="page-shell contact-page"><div className="page-heading"><span className="eyebrow">04 / CONTACT</span><h1>A new conversation.<br/>A new possibility.</h1><p>Have an idea, a project, or just want to say hello? I'd love to hear from you.</p></div><div className="contact-letter"><div className="letter-fold" aria-hidden="true"/><span className="eyebrow">TO CHRISTINA</span><h2>Every good idea starts with a conversation.</h2><div className="contact-row"><span>EMAIL</span><a href={'mailto:'+profile.email}>{profile.email}<span aria-hidden="true">↗</span></a></div><a className="contact-hello" href={'mailto:'+profile.email}>Say hello <span aria-hidden="true">↗</span></a>{linkedIn&&<div className="contact-row contact-secondary"><span>LINKEDIN</span><a href={linkedIn.url} target="_blank" rel="noopener noreferrer">Connect on LinkedIn<span aria-hidden="true">↗</span></a></div>}</div></div>}

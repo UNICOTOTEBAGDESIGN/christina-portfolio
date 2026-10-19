@@ -1,0 +1,122 @@
+{
+  "verifiedOn": "2026-10-16",
+  "cv": "public/resume.pdf",
+  "cvSha256": "e859faf4f04ff731b38a5030b2a658231d25bf3d7b5f2085d143b825d2ac629e",
+  "legacyRepoTree": "954b941f17ef98aa42547384e3b95309d951d883",
+  "assets": [
+    {
+      "file": "public/experience/tusee/tiktok-account.png",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/tusee-sneaker.png",
+      "gitBlobSha": "0110491ba95d50b4273ed9864dab91221ded2983",
+      "sha256": "d8b8bd6ef98fc3c8743fe601425c6f232aa6a227f800b8b4d85bf6681696f3c7",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/beauty-account.png",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/tusee-beauty.png",
+      "gitBlobSha": "b6cd5fd8772d3d9c89e6f898b0435e6da1e3533c",
+      "sha256": "4aac8419b3247f9376a8802ec6e98b1e8c6d5ec9b72317231af2416aba7a6da3",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/chanel-legit-check.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/sneaker1.jpg",
+      "gitBlobSha": "c9cb6c24214fe320cc45fe8c5b8da1860474d70e",
+      "sha256": "0f787de8bfaaabb4fb059b05c27e279902df0fef06c186f718c40ebe92f67153",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/timberland-real-vs-fake.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/sneaker2.jpg",
+      "gitBlobSha": "ee3fb475d1a441fa54278a8e2ed378daad11ad25",
+      "sha256": "10dd36a0fdc8f2b965161c73fc83e6366aca30c6f7db4126bc3265f9e6970417",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/nike-dunk-real-vs-fake.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/sneaker3.jpg",
+      "gitBlobSha": "665da02ccdc33ddecc6bf99b403687fad4bc9ea9",
+      "sha256": "51b42b5baa1621799c5fae1f0eb31c5e84d31d69e154c956d68d25849c0e5a3f",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/dior-lipsticks.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/beauty1.jpg",
+      "gitBlobSha": "b0b34e0bcce183c62f993f2ba856e19d77407e37",
+      "sha256": "dc60a372ae8008d1fb10dfb7cef84a9a9f5d835a03fff04ed8b49069a80a245e",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/clinique-real-vs-fake.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/beauty2.jpg",
+      "gitBlobSha": "e685b480d957c643ae782e6e041249ea90e1ce1a",
+      "sha256": "1c8eef52503f8518f6253c6150839c0cc9801e623a886017497937f8c0dcc149",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/gucci-perfume.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/beauty3.jpg",
+      "gitBlobSha": "728a3302a2271589d5b8c3775db177406fbd5c92",
+      "sha256": "8a5950748343c785b84b16ec4deac76f292088f638605fa5ef7bb4ab0f2398d7",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/humva/tiktok-account.png",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/humva.png",
+      "gitBlobSha": "38b234d029c43ad93ad595fd897b41fabe1ef481",
+      "sha256": "334cadae00c59bf317e347800080dbcaf081576addd46ddeffef356d6c0a95b3",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/humva/is-this-humva.png",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/humva1.PNG",
+      "gitBlobSha": "32aa9c9958ebe1f8813ae158fac9280d05474456",
+      "sha256": "b37d45df1b93f80ed0fb336353e6359e959a3bac5da7f8876cf137f64db98e90",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/humva/not-built-for-this.jpg",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/humva2.JPG",
+      "gitBlobSha": "8b01d9eea8c9c2613da26c4d302db60a80bc73ae",
+      "sha256": "05893067be030ddb127b01279e0e02d4cd5ca1469664c50b899777ddaa6e73d8",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/humva/breaking-news.png",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/humva3.PNG",
+      "gitBlobSha": "2de514d1a5e3bb68053cb7db05cb345ef3c2fa9e",
+      "sha256": "50acf958ac570f91ab3d00678f4ec2c401bfe1a643816690dff558782ce1b999",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/humva/product-promotion.png",
+      "source": "https://raw.githubusercontent.com/unicototebagdesign/HXQ-portfolio/main/public/accounts/humva-1.png",
+      "gitBlobSha": "4085421ff155456bd83ce351d198cb4dc6f32808",
+      "sha256": "d39aff17f36ff463a9d67700c42da3ebdc9b1d3f57cbb626d99a04be65119791",
+      "unaltered": true
+    },
+    {
+      "file": "public/experience/tusee/product-categories.png",
+      "source": "https://tusee.ai/images/bg.png",
+      "sha256": "18b327e518d26f297d772a90877b68be11475f293140088441afb5d596faa267",
+      "unaltered": true,
+      "kind": "official website marketing visual, not an app screenshot"
+    }
+  ],
+  "userConfirmation": "User confirmed the TuSee works are theirs and Nike corresponds to the CV 2.4M+ result. User additionally authorized importing both TuSee accounts and Humva.",
+  "excludedClaims": [
+    "TuSee legacy 3.3K/1.4K follower totals and 20% CTR uplift were not imported as internship results.",
+    "Humva legacy 415.6K TikTok views were not substituted for the latest CV 45K+ TikTok result."
+  ],
+  "missing": [
+    "True product interface screenshots for TuSee and Humva",
+    "Instagram handles / links and screenshots",
+    "Third standalone TuSee video and its cover"
+  ],
+  "linkChecks": {
+    "tusee.ai": "200",
+    "humva.ai": "timed out; URL retained from latest CV, live availability not confirmed",
+    "humva.studio": "timed out; not added",
+    "TikTok short links": "All nine resolved to specific content IDs: five video posts and four photo posts."
+  }
+}

@@ -1,0 +1,190 @@
+[
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/Gemini_Generated_Image_665qq9665qq9665q.png",
+    "asset": "experiment-1.webp",
+    "originalSize": [
+      2624,
+      1632
+    ],
+    "crop": null,
+    "displaySize": [
+      2624,
+      1632
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/Gemini_Generated_Image_oohmf0oohmf0oohm.png",
+    "asset": "experiment-2.webp",
+    "originalSize": [
+      2624,
+      1632
+    ],
+    "crop": null,
+    "displaySize": [
+      2624,
+      1632
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/Gemini_Generated_Image_t3d6nqt3d6nqt3d6.png",
+    "asset": "experiment-3.webp",
+    "originalSize": [
+      2624,
+      1632
+    ],
+    "crop": null,
+    "displaySize": [
+      2624,
+      1632
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/Gemini_Generated_Image_ow7s49ow7s49ow7s.png",
+    "asset": "experiment-4.webp",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "crop": null,
+    "displaySize": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/1.png",
+    "asset": "experiment-5.webp",
+    "originalSize": [
+      2880,
+      1800
+    ],
+    "crop": [
+      0,
+      0,
+      2880,
+      1700
+    ],
+    "displaySize": [
+      2880,
+      1700
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/截屏2026-10-17 19.39.02.png",
+    "asset": "final-computer.webp",
+    "originalSize": [
+      2866,
+      1620
+    ],
+    "crop": [
+      0,
+      0,
+      2866,
+      1505
+    ],
+    "displaySize": [
+      2866,
+      1505
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/截屏2026-10-17 19.39.02.png",
+    "asset": "final-computer-portrait.webp",
+    "originalSize": [
+      2866,
+      1620
+    ],
+    "crop": [
+      1003,
+      162,
+      2006,
+      1101
+    ],
+    "displaySize": [
+      1003,
+      939
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/截屏2026-10-17 19.39.14.png",
+    "asset": "final-young-man.webp",
+    "originalSize": [
+      1306,
+      1588
+    ],
+    "crop": [
+      0,
+      0,
+      1306,
+      1388
+    ],
+    "displaySize": [
+      1306,
+      1388
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/截屏2026-10-17 19.39.14.png",
+    "asset": "final-young-man-portrait.webp",
+    "originalSize": [
+      1306,
+      1588
+    ],
+    "crop": [
+      130,
+      55,
+      1005,
+      1365
+    ],
+    "displaySize": [
+      875,
+      1310
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/截屏2026-10-17 19.39.25.png",
+    "asset": "final-hamster.webp",
+    "originalSize": [
+      2026,
+      1392
+    ],
+    "crop": [
+      0,
+      0,
+      2026,
+      1242
+    ],
+    "displaySize": [
+      2026,
+      1242
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/截屏2026-10-17 19.39.25.png",
+    "asset": "final-hamster-portrait.webp",
+    "originalSize": [
+      2026,
+      1392
+    ],
+    "crop": [
+      364,
+      194,
+      1560,
+      1155
+    ],
+    "displaySize": [
+      1196,
+      961
+    ]
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/Hamster_Meets_Humva_On_Snowy_Night.mp4",
+    "asset": "experiment-video-1.mp4",
+    "kind": "early demo; not final film"
+  },
+  {
+    "source": "/Users/christinahuang/Desktop/老鼠素材/Hamster_s_Digital_Encounter.mp4",
+    "asset": "experiment-video-2.mp4",
+    "kind": "early demo; not final film"
+  }
+]

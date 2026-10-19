@@ -1,0 +1,3 @@
+import {useEffect} from 'react';
+import '../project-interactions.css';
+export function ProjectMotion({id}){useEffect(()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const targets=document.querySelectorAll('.project-theme .film-section-heading,.project-theme .film-art:not(.clinic-phone),.project-theme .project-end-navigation');const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('project-arrived');observer.unobserve(entry.target)}})},{threshold:.12});targets.forEach(t=>observer.observe(t));return()=>{observer.disconnect();targets.forEach(t=>t.classList.remove('project-arrived'))}},[id]);return null}

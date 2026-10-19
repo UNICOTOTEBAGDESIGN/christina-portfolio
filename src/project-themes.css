@@ -1,0 +1,24 @@
+/* A project keeps the same palette from its gallery cover through its story. */
+.project-theme.theme-lilac{--project-paper:#e7dfed;--project-ink:#362b3e;--project-muted:#736779}
+.project-theme.theme-film{--project-paper:#efe5d6;--project-ink:#403329;--project-muted:#786958}
+.project-theme.theme-rose{--project-paper:#ead9d7;--project-ink:#362b3e;--project-muted:#746069}
+.project-theme.theme-sage{--project-paper:#dbe0d5;--project-ink:#303b35;--project-muted:#627065}
+.project-theme.theme-butter{--project-paper:#efe4c9;--project-ink:#403728;--project-muted:#776b55}
+.project-theme.gallery-experience,.project-theme>.cinema-experience,.project-theme>.film-book{background:var(--project-paper);color:var(--project-ink)}
+.project-theme>.film-book{--paper:var(--project-paper);--ink:var(--project-ink);--muted:var(--project-muted)}
+.project-theme .presentation-slide{background:var(--project-paper);color:var(--project-ink)}
+.project-theme .hm-chapter-nav{background:var(--project-paper);color:var(--project-ink)}
+/* Shared gallery stage; each original cover remains fully visible. */
+.project-theme.gallery-experience .exhibition-art{background:var(--project-paper);box-shadow:none;border:0;display:flex;align-items:center;justify-content:center}
+.project-theme.gallery-experience .exhibition-art>img{width:100%;height:100%;object-fit:contain;object-position:center}
+.project-theme.gallery-experience .exhibition-art:hover>img{transform:none}
+
+/* The index belongs to the stage background, beneath cover and copy. */
+.project-theme.gallery-experience .exhibition-slide{isolation:isolate}
+.project-theme.gallery-experience .exhibition-art{z-index:1}
+.project-theme.gallery-experience .exhibit-number{position:absolute;right:3%;bottom:0;left:auto;top:auto;z-index:0;font-size:clamp(110px,18vw,260px);font-weight:400;line-height:.8;letter-spacing:-.08em;color:var(--project-ink);opacity:.055;pointer-events:none;user-select:none}
+@media(max-width:700px){.project-theme.gallery-experience .exhibit-number{font-size:130px;right:5%;bottom:6px}}
+
+.project-theme .film-end-nav,.project-theme .hm-end-links,.project-theme .roi-end{display:none}.project-theme .reflection-copy>.story-button,.project-theme .next-project-teaser{display:none}.project-end-navigation{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:40px max(6vw,24px) 110px;background:var(--project-paper);color:var(--project-ink);border-top:1px solid #342b3d30}.project-end-navigation button{border:0;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer}.project-end-navigation button:last-child{text-align:right}.project-end-navigation small{display:block;font-size:10px;letter-spacing:1.5px;opacity:.65;margin-bottom:10px}.project-end-navigation span{font-size:clamp(22px,2.6vw,38px);letter-spacing:-1px}.project-end-navigation>button:first-child{font-size:12px}@media(max-width:700px){.project-end-navigation{gap:20px}.project-end-navigation span{font-size:23px;max-width:210px;display:block;line-height:1.2}}
+
+.project-end-navigation>.project-return-link{font:inherit;font-size:12px;color:inherit;text-decoration:none;padding:2px 6px;text-align:left;transition:opacity .2s}.project-end-navigation>.project-return-link:hover{opacity:1}.clinic-product-theme .project-end-navigation>.project-return-link{color:#82938f;transition:color .22s}.clinic-product-theme .project-end-navigation>.project-return-link:hover,.clinic-product-theme .project-end-navigation>.project-return-link:focus-visible{color:#263c48}

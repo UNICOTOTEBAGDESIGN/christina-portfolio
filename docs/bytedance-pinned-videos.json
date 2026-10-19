@@ -1,0 +1,62 @@
+[
+  {
+    "handle": "@skylarsketch3",
+    "selectedVideoId": "7634135234065206542",
+    "views": "3.5M",
+    "pinnedCandidates": [
+      {
+        "videoId": "7648982107196280078",
+        "views": "2.1M"
+      },
+      {
+        "videoId": "7639699025536568589",
+        "views": "2.1M"
+      },
+      {
+        "videoId": "7634135234065206542",
+        "views": "3.5M"
+      }
+    ],
+    "checkedOn": "2026-10-16"
+  },
+  {
+    "handle": "@cococozylife",
+    "selectedVideoId": "7626828253206023438",
+    "views": "778.9K",
+    "pinnedCandidates": [
+      {
+        "videoId": "7627451680551865613",
+        "views": "608.9K"
+      },
+      {
+        "videoId": "7626328822593424654",
+        "views": "588K"
+      },
+      {
+        "videoId": "7626828253206023438",
+        "views": "778.9K"
+      }
+    ],
+    "checkedOn": "2026-10-16"
+  },
+  {
+    "handle": "@iamnotvivimi",
+    "selectedVideoId": "7659620535982132494",
+    "views": "194.7K",
+    "pinnedCandidates": [
+      {
+        "videoId": "7660040599768452365",
+        "views": "101.1K"
+      },
+      {
+        "videoId": "7659620535982132494",
+        "views": "194.7K"
+      },
+      {
+        "videoId": "7658149051849919757",
+        "views": "35.5K"
+      }
+    ],
+    "checkedOn": "2026-10-16"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "tool": "built-in image_gen",
+  "master": "/Users/christinahuang/Desktop/body/little-universe-demo/public/portrait/final-v3/reference.png",
+  "invariants": "Only gaze changes. Complete frame assets retain master pixels outside the eye interiors; no runtime moving eye elements. Neck-only crop, integrated white border and one paired tear geometry.",
+  "sources": [
+    {
+      "direction": "n",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-e467560f-3eb7-43e9-bb51-be31aa707ac2.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look UP (viewer north), a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "e",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-059f4a32-3475-488a-b3aa-2255fe6b75d6.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look TO VIEWER RIGHT, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "se",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-67568205-951d-45f7-8157-6cf0d02ca6ed.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look DOWN AND TO VIEWER RIGHT, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "ne",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-695aac5e-812a-4d3e-bec0-0ad59d298b3e.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look UP AND TO VIEWER RIGHT, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "s",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-7376dd38-5893-4fb3-a464-f8f64ac9249f.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look DOWN, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "sw",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-d9a133c3-e829-4a52-a78a-b2acacdeca2b.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look DOWN AND TO VIEWER LEFT, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "nw",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-a1b74bb5-1c5a-42ee-9dbd-b8c5d8f759db.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look UP AND TO VIEWER LEFT, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "w",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-4bc79af5-622c-4657-8273-189ae55103cd.png",
+      "prompt": "Use case: identity-preserve precise photo edit. Edit target: supplied master photograph. Produce ONE complete photograph, identical composition and transparent alpha to the master, 1080x1457 portrait. Change ONLY both irises/pupils to look TO VIEWER LEFT, a natural modest gaze within the existing eyelids. Do not move or reshape either eyelid, eyelashes, eyebrows, head, face, mouth, neck, shirt or hair. Preserve head's exact subtle angle, facial proportions, original skin tone, highlights, exposure, sharpness and ALL pixels outside eyeballs as closely as possible. This is one animation frame of the SAME photograph, not another portrait or new camera angle. Maintain iris size and natural dark brown color. No new white outline, no tear, no shadow, no beautification, no repainting face, no text. Keep original transparent background and exact placement, no crop or zoom."
+    },
+    {
+      "direction": "surprise",
+      "path": "/Users/christinahuang/.codex/generated_images/01a1411e-0502-7750-acad-088996c0b5dc/exec-fb08f9da-3c50-4401-86dd-2a273324dc06.png",
+      "prompt": "Edit target: the provided exact master photograph. Make ONE surprised expression frame of the SAME PHOTO. Change only the mouth to a naturally open surprised mouth and slightly widen eyes. Keep identity, head's subtle angle, exact head/neck silhouette, pixel placement, face proportions, hair, bow, skin hue, lighting and sharpness identical. Keep complete original 1080x1457 framing and transparent background. Do NOT add any outline, tear, crop, shoulder movement, skin retouching, relighting or text. This is an expression edit of the mother frame, not a new portrait."
+    }
+  ]
+}

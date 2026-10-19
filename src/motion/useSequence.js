@@ -1,0 +1,14 @@
+import {useState,useRef,useEffect,useCallback} from 'react';
+export const motion={duration:680,exit:240,ease:'cubic-bezier(.22,.68,.18,1)'};
+export function useSequence(total,initial=0){
+ const [index,setIndex]=useState(initial),[phase,setPhase]=useState('idle'),[direction,setDirection]=useState(1),locked=useRef(false),timers=useRef([]),indexRef=useRef(initial),wheel=useRef(0),pointer=useRef(null),suppressClick=useRef(false);
+ const reduce=useRef(matchMedia('(prefers-reduced-motion: reduce)').matches);
+ useEffect(()=>()=>timers.current.forEach(clearTimeout),[]);
+ const go=useCallback(next=>{next=Math.max(0,Math.min(total-1,next));if(locked.current||next===indexRef.current)return;setDirection(next>indexRef.current?1:-1);if(reduce.current){indexRef.current=next;setIndex(next);return}locked.current=true;setPhase('exit');timers.current=[setTimeout(()=>{indexRef.current=next;setIndex(next);setPhase('enter')},motion.exit),setTimeout(()=>{locked.current=false;setPhase('idle')},motion.duration)]},[total]);
+ const next=useCallback(()=>go(indexRef.current+1),[go]),prev=useCallback(()=>go(indexRef.current-1),[go]);
+ const reset=useCallback(value=>{timers.current.forEach(clearTimeout);locked.current=false;indexRef.current=value;setIndex(value);setPhase('enter');timers.current=[setTimeout(()=>setPhase('idle'),motion.duration)]},[]);
+ const onWheel=e=>{if(e.target.closest('input,video,[data-scroll-panel]')||locked.current)return;wheel.current+=e.deltaY+e.deltaX;if(Math.abs(wheel.current)>65){wheel.current>0?next():prev();wheel.current=0}};
+ const onPointerDown=e=>{suppressClick.current=false;if(e.target.closest('button:not([data-drag-surface]),a,input,video,label'))return;pointer.current={x:e.clientX,y:e.clientY}},onPointerMove=e=>{if(pointer.current&&Math.abs(pointer.current.x-e.clientX)>9)e.currentTarget.setPointerCapture?.(e.pointerId)},onPointerUp=e=>{if(!pointer.current)return;const d=pointer.current.x-e.clientX;pointer.current=null;if(Math.abs(d)>45){suppressClick.current=true;(d>0?next:prev)()}},onClickCapture=e=>{if(suppressClick.current){e.preventDefault();e.stopPropagation();suppressClick.current=false}};
+ const bindKeyboard=useCallback((exit,disabled=false)=>{const handler=e=>{if(e.key==='Escape'){exit?.();return}if(disabled||e.target.closest('input,textarea,video,[contenteditable=true]'))return;if(['ArrowRight','ArrowDown','PageDown'].includes(e.key)){e.preventDefault();next()}else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();prev()}else if(e.key==='Home'){e.preventDefault();go(0)}else if(e.key==='End'){e.preventDefault();go(total-1)}else if(e.key==='Escape')exit?.()};window.addEventListener('keydown',handler);return()=>window.removeEventListener('keydown',handler)},[go,next,prev,total]);
+ return {index,phase,direction,go,next,prev,reset,bindKeyboard,locked:phase!=='idle',gestures:{onWheel,onPointerDown,onPointerMove,onPointerUp,onClickCapture,onPointerCancel:()=>{pointer.current=null}}};
+}

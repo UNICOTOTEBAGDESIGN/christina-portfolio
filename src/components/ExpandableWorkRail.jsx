@@ -1,0 +1,6 @@
+import React,{useState,useRef,useEffect} from 'react';
+export function ExpandableWorkRail({title='Explore selected work',count,children}){
+ const [open,setOpen]=useState(false),host=useRef();
+ useEffect(()=>{const cards=host.current?.querySelectorAll('.internship-work-card,.internship-highlight-cover')||[];cards.forEach((card,i)=>{card.style.setProperty('--work-index',i);card.style.setProperty('--work-count',cards.length);card.style.setProperty('--work-turn',((i-(cards.length-1)/2)*5)+'deg');if(!open){card.setAttribute('inert','')}else card.removeAttribute('inert')});if(!open)host.current?.querySelectorAll('video').forEach(v=>v.pause())},[open,children]);
+ return <div ref={host} className={'expandable-work-rail work-card-deck '+(open?'work-deck-open':'work-deck-closed')}><header><div><strong>{title}</strong><small>{count} {count===1?'piece':'pieces'} · {open?'Scroll sideways to explore':'Click the stack to spread the cards'}</small></div><button className="work-deck-toggle" aria-expanded={open} onClick={()=>setOpen(v=>!v)}>{open?'Gather cards':'Spread cards'} <span aria-hidden="true">{open?'−':'↔'}</span></button></header><div className="expanded-work-content">{children}{!open&&<button className="work-stack-hit" aria-label={'Spread '+title} onClick={()=>setOpen(true)}/>}</div></div>
+}

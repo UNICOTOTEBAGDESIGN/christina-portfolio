@@ -1,0 +1,10 @@
+.portrait-content .about-page .portrait{margin:0;transform:none;background:transparent}
+.portrait-content .about-page .about-profile-photo{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:14px}
+.portrait-content .about-page .photo-caption{display:block;margin-top:15px;line-height:1.5}
+@media(min-width:701px){
+ .portrait-content .about-page .about-layout{align-items:stretch}
+ .portrait-content .about-page .portrait{position:relative;align-self:stretch;min-height:0}
+ .portrait-content .about-page .about-profile-photo{position:absolute;inset:0;height:100%;aspect-ratio:auto;object-position:50% 42%}
+ .portrait-content .about-page .photo-caption{position:absolute;top:100%;left:0}
+ .portrait-content .about-page .page-next{margin-top:85px}
+}

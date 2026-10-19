@@ -1,0 +1,24 @@
+import '../project-interactions.css';
+import {ClinicLogCover,DessertZooCover} from '../components/ProjectCovers';
+import '../project-themes.css';
+import React,{useEffect,useState,useRef} from 'react';
+import {independentProjects as projects} from '../data/portfolio';
+import {useSequence} from '../motion/useSequence';
+export function ProjectGallery({navigate,selectedOnly=false,uploads}){
+ const [overview,setOverview]=useState(false),overviewDialog=useRef(),overviewTrigger=useRef();
+ const visible=projects,sequence=useSequence(visible.length);
+ const project=visible[sequence.index]||visible[0];
+ useEffect(()=>sequence.bindKeyboard(()=>overview?setOverview(false):navigate('home/projects'),overview),[sequence.bindKeyboard,navigate,overview]);
+ useEffect(()=>{if(overview)overviewDialog.current?.showModal();else if(overviewDialog.current?.open){overviewDialog.current.close();overviewTrigger.current?.focus()}},[overview]);
+ return <section className={'cinema-experience gallery-experience project-theme theme-'+project.accent+' exhibit-'+project.accent} aria-label="Stories in motion project gallery"><div className="experience-top"><button className="experience-back" onClick={()=>navigate('home/projects')}>← Back to home</button><span>STORIES IN MOTION</span><span>02 / PROJECTS</span></div>
+  <div className="exhibition-categories"><span>Independent design, interactive experiences & film</span><button ref={overviewTrigger} className="project-overview-toggle" onClick={()=>setOverview(true)} aria-haspopup="dialog">Explore all five <span>⊞</span></button></div>
+  <div className="exhibition-stage" {...sequence.gestures}>
+   <article key={project.id} className={'exhibition-slide sequence-'+sequence.phase} style={{'--direction':sequence.direction}}>
+    <div className="exhibition-copy"><span className="eyebrow" data-reveal>{project.type}</span><h1 data-reveal>{project.title}</h1><p data-reveal>{project.summary}</p><span className="project-period" data-reveal>{project.meta}</span><button className="story-button" aria-label="View Story" data-reveal onClick={()=>navigate('projects/'+project.id)}>View Story <span>↗</span></button></div>
+    <button data-drag-surface className={'exhibition-art '+(project.id==='rented-time'?'film-poster':'')} aria-label={`Preview ${project.title}`} onClick={()=>navigate('projects/'+project.id)}>{project.id==='clinicallog'&&!uploads?.[project.id+'-cover']?<ClinicLogCover/>:project.id==='dessert-zoo'&&!uploads?.[project.id+'-cover']?<DessertZooCover/>:uploads?.[project.id+'-cover']||project.cover?<img src={uploads?.[project.id+'-cover']||project.cover} alt={project.title+' cover'}/>:<div className="exhibition-placeholder"><span className="poster-meta">{project.id==='rented-time'?'A SHORT FILM BY CHRISTINA HUANG':'ORIGINAL PROJECT MEDIA'}</span><span className="poster-frame"/><span className="poster-pending">COVER / MEDIA TO BE ADDED</span><span className="poster-duration">{project.id==='rented-time'?'07:52':'SELECTED WORK'}<i>↗</i></span></div>}<span className="cover-open-hint" aria-hidden="true">Explore project <b>↗</b></span></button><span className="exhibit-number" aria-hidden="true">{String(sequence.index+1).padStart(2,'0')}</span>
+   </article>
+  </div>
+  <div className="experience-bottom"><span className="interaction-hint">DRAG / SWIPE TO EXPLORE <i>↔</i></span><div className="gallery-project-dots" aria-label="Select a project">{visible.map((p,i)=><button key={p.id} aria-label={`Select ${p.title}`} aria-current={i===sequence.index?'step':undefined} onClick={()=>sequence.go(i)}><i/><span>{String(i+1).padStart(2,'0')}</span></button>)}</div><div className="sequence-arrows"><span>{String(sequence.index+1).padStart(2,'0')} / {String(visible.length).padStart(2,'0')}</span><button aria-label="Previous project" disabled={sequence.index===0||sequence.locked} onClick={sequence.prev}>←</button><button aria-label="Next project" disabled={sequence.index===visible.length-1||sequence.locked} onClick={sequence.next}>→</button></div></div>
+ <dialog ref={overviewDialog} className="project-overview-dialog" aria-label="Explore all projects" onCancel={e=>{e.preventDefault();setOverview(false)}} onClick={e=>{if(e.target===e.currentTarget)setOverview(false)}}><header><div><small>SELECTED PROJECTS</small><h2>Choose a story.</h2></div><button onClick={()=>setOverview(false)} aria-label="Close project overview">Close ×</button></header><div className="project-overview-grid">{visible.map((p,i)=><button className={'overview-project-card theme-'+p.accent} key={p.id} onClick={()=>{sequence.go(i);setOverview(false)}}><div className="overview-card-art">{p.id==='clinicallog'?<ClinicLogCover/>:p.id==='dessert-zoo'?<DessertZooCover/>:<img src={uploads?.[p.id+'-cover']||p.cover} alt=""/>}</div><small>0{i+1} / {p.type}</small><strong>{p.title}<span>↗</span></strong><p>{p.summary}</p></button>)}</div></dialog>
+ </section>;
+}

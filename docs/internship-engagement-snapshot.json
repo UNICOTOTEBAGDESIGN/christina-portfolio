@@ -1,0 +1,72 @@
+{
+  "checkedOn": "2026-10-16",
+  "source": "TikTok public page hydration JSON: webapp.video-detail.itemInfo.itemStruct.stats / authorStats",
+  "videos": [
+    {
+      "page": "tusee",
+      "itemId": "nike-dunk",
+      "contentId": "7433513217734839557",
+      "url": "https://www.tiktok.com/@tusee.legitcheck/video/7433513217734839557",
+      "playCount": 2500000,
+      "account": "tusee.legitcheck",
+      "followers": 4074
+    },
+    {
+      "page": "tusee",
+      "itemId": "timberland",
+      "contentId": "7452146528820432134",
+      "url": "https://www.tiktok.com/@tusee.legitcheck/video/7452146528820432134",
+      "playCount": 439600,
+      "account": "tusee.legitcheck",
+      "followers": 4074
+    },
+    {
+      "page": "humva",
+      "itemId": "is-this-humva",
+      "contentId": "7582871731690360094",
+      "url": "https://www.tiktok.com/@official_humva_ai/video/7582871731690360094",
+      "playCount": 8332,
+      "account": "official_humva_ai",
+      "followers": 3964
+    },
+    {
+      "page": "humva",
+      "itemId": "not-built-for-this",
+      "contentId": "7578048205552700703",
+      "url": "https://www.tiktok.com/@official_humva_ai/video/7578048205552700703",
+      "playCount": 2984,
+      "account": "official_humva_ai",
+      "followers": 3964
+    },
+    {
+      "page": "humva",
+      "itemId": "breaking-news",
+      "contentId": "7582079011719859486",
+      "url": "https://www.tiktok.com/@official_humva_ai/video/7582079011719859486",
+      "playCount": 415600,
+      "account": "official_humva_ai",
+      "followers": 3964
+    }
+  ],
+  "archivedPhotoViews": {
+    "chanel": "34K",
+    "dior": "365.1K",
+    "clinique": "32K",
+    "gucci": "165.5K"
+  },
+  "archivedFollowers": {
+    "tuseecheck": {
+      "count": 942,
+      "source": "public/experience/tusee/beauty-account.png"
+    }
+  },
+  "cvFollowers": {
+    "Humva Instagram": "3.8K"
+  },
+  "websiteChecks": {
+    "https://tusee.ai/": "Confirmed official product page",
+    "https://humva.ai/": "CV-listed official URL; request timed out",
+    "https://www.humva.studio/": "Found in official TikTok captions; request timed out",
+    "https://www.humva.com/": "Currently redirects to /lander; not substituted"
+  }
+}
